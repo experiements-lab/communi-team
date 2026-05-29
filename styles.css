@@ -236,11 +236,14 @@ h3 {
 }
 
 .card .icon {
-  font-size: 36px;
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   color: var(--purple);
   line-height: 1;
+}
+
+.card .icon svg {
+  display: block;
 }
 
 .card p {
