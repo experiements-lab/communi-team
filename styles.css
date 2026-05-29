@@ -236,9 +236,11 @@ h3 {
 }
 
 .card .icon {
-  font-size: 32px;
-  display: inline-block;
+  font-size: 36px;
+  display: block;
   margin-bottom: 18px;
+  color: var(--purple);
+  line-height: 1;
 }
 
 .card p {
