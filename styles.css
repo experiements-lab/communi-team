@@ -211,8 +211,40 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
-.intro p:last-child {
+.intro-right > p {
   font-size: 20px;
+  color: var(--muted);
+}
+
+.intro-empower {
+  font-size: 17px !important;
+  color: var(--ink) !important;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.intro-pillars {
+  display: grid;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.intro-pillars div {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--purple);
+  border-radius: 14px;
+  padding: 16px 20px;
+}
+
+.intro-pillars strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.intro-pillars span {
+  font-size: 14px;
   color: var(--muted);
 }
 
