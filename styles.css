@@ -517,6 +517,33 @@ textarea {
   background: rgba(10, 102, 194, 0.2);
 }
 
+.section-video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  margin-top: 24px;
+}
+
+.card-video {
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  border: none;
+}
+
+.card-video .section-video {
+  margin-top: 0;
+  border-radius: 12px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-video {
+  margin-top: 0;
+  margin-bottom: 32px;
+  grid-column: 1 / -1;
+}
+
 .footer-email {
   color: #e5c54b;
   text-decoration: none;
