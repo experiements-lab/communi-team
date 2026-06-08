@@ -517,6 +517,18 @@ textarea {
   background: rgba(10, 102, 194, 0.2);
 }
 
+.footer-email {
+  color: #e5c54b;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.footer-email:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 850px) {
   .nav-toggle {
     display: block;
