@@ -538,10 +538,15 @@ textarea {
   object-fit: cover;
 }
 
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .contact-video {
-  margin-top: 0;
-  margin-bottom: 32px;
-  grid-column: 1 / -1;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .footer-email {
