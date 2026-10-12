@@ -1,332 +1,356 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Communi-Team | Talent. Technology. Delivery.</title>
-  <meta name="description" content="Communi-Team helps businesses scale with managed South African talent, AI engineering, bots, data analytics, cloud computing, app development and IT delivery." />
+  <title>Communi-Team | Where you go when you don’t know what to do</title>
+  <meta name="description" content="Stuck on sales, admin, AI, data or IT? Communi-Team works out what your business actually needs, then delivers it with South African talent and technology." />
+  <link rel="canonical" href="https://www.communiteam.co.za/" />
+  <meta name="theme-color" content="#080a1c" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Communi-Team" />
+  <meta property="og:locale" content="en_ZA" />
+  <meta property="og:url" content="https://www.communiteam.co.za/" />
+  <meta property="og:title" content="Communi-Team | Where you go when you don’t know what to do" />
+  <meta property="og:description" content="Not sure if you need a new hire, better systems or AI? Tell us what’s going on. We’ll work out what your business needs, then deliver it." />
+  <meta property="og:image" content="https://www.communiteam.co.za/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Communi-Team: Where you go when you don’t know what to do." />
+  <meta name="twitter:card" content="summary_large_image" />
+
   <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Communi-Team",
+    "legalName": "Pharoe Trading and Projects (Pty) Ltd",
+    "slogan": "Where you go when you don’t know what to do.",
+    "description": "Communi-Team works out what your business actually needs, then delivers it with managed South African talent, AI and automation, data analytics, cloud, apps and IT services.",
+    "url": "https://www.communiteam.co.za/",
+    "logo": "https://www.communiteam.co.za/assets/communi-team-logo.png",
+    "image": "https://www.communiteam.co.za/assets/og-image.png",
+    "email": "contact@communiteam.co.za",
+    "areaServed": "ZA",
+    "sameAs": ["https://www.linkedin.com/company/communi-team-global/"]
+  }
+  </script>
 </head>
 <body>
-  <canvas id="stars-canvas"></canvas>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="stars-canvas" aria-hidden="true"></canvas>
+
   <header class="site-header">
-    <nav class="nav">
-      <a class="brand" href="#home" aria-label="Communi-Team Home">
-        <img src="assets/communi-team-logo.png" alt="Communi-Team Logo" />
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#top" aria-label="Communi-Team home">
+        <img src="assets/communi-team-logo-wide.png" alt="Communi-Team" width="497" height="139" />
       </a>
-      <button class="nav-toggle" aria-label="Toggle Menu">☰</button>
-      <div class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#model">Model</a>
-        <a href="#industries">Industries</a>
-        <a href="#process">Process</a>
-        <a href="https://communiteam.zohobookings.com/#/4944737000000039045" target="_blank" rel="noopener" class="nav-cta">Book a Call</a>
+      <div class="nav-links" id="nav-links">
+        <a href="#how">How it works</a>
+        <a href="#services">What we do</a>
+        <a href="#ways">Ways to work with us</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a class="btn btn-primary btn-small" href="https://communiteam.zohobookings.com/#/4944737000000039045" target="_blank" rel="noopener">Book a call</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="visually-hidden">Menu</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">Talent. Technology. Delivery.</p>
-        <h1>Scale your business with managed talent from IT Projects and Services, AI solutions and technology execution from one trusted partner.</h1>
-        <p class="hero-text">
-          Communi-Team helps startups, SMEs and growth-stage businesses access trained South African talent while delivering practical AI, bots, data analytics, cloud computing, app development and IT services.
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <h1 class="hero-title">
+          <span class="line">Where you go when</span>
+          <span class="line">you don’t know</span>
+          <span class="line">what to do<span class="beacon"><span class="visually-hidden">.</span></span></span>
+        </h1>
+        <p class="hero-lede">
+          Not sure if you need a new hire, better systems or AI? Tell us what’s going on. We’ll work out what your business actually needs, then deliver it with trained South African talent, practical technology, or both.
         </p>
         <div class="hero-actions">
-          <a href="https://communiteam.zohobookings.com/#/4944737000000039045" target="_blank" rel="noopener" class="btn primary">Book a Discovery Call</a>
-          <a href="#services" class="btn secondary">Explore Services</a>
+          <a class="btn btn-primary" href="https://communiteam.zohobookings.com/#/4944737000000039045" target="_blank" rel="noopener">Book a discovery call</a>
+          <a class="btn btn-ghost" href="#contact">Tell us what’s going on</a>
         </div>
+        <p class="hero-note">No brief needed. No jargon. Just a clear next step.</p>
       </div>
-      <div class="hero-card">
-        <h3>One partner for growth</h3>
-        <div class="stat-grid">
-          <div><strong>Talent</strong><span>VAs, SDRs, AEs, CS, Design, IT</span></div>
-          <div><strong>AI</strong><span>Bots, agents, automation</span></div>
-          <div><strong>Cloud</strong><span>Setup, support, scaling</span></div>
-          <div><strong>Data</strong><span>Dashboards, analytics, reporting, BI & Data Warehousing</span></div>
-        </div>
-      </div>
+      <svg class="constellation" aria-hidden="true" focusable="false"></svg>
     </section>
 
-    <section class="section intro">
-      <div>
-        <p class="eyebrow">Where Talent Meets Technology</p>
-        <h2>A managed-service agency built for flexible execution.</h2>
-        <video class="section-video" src="assets/video-intro.mp4" autoplay muted loop playsinline></video>
+    <section class="section situations" id="situations" aria-labelledby="situations-title">
+      <div class="section-head">
+        <h2 id="situations-title">Sound familiar?</h2>
+        <p>Most people don’t come to us with a brief. They come with a problem. Here’s where we usually start.</p>
       </div>
-      <div class="intro-right">
-        <p>
-          Instead of forcing clients to choose between hiring, freelancers, software vendors and IT providers, Communi-Team packages the right people and the right technical delivery into a single accountable service model.
-        </p>
-        <p class="intro-empower">We empower business owners with the best skills and resources available — so you can focus on growth while we handle the execution.</p>
-        <div class="intro-pillars">
+      <ul class="situation-list">
+        <li class="situation" style="--star: var(--amber)">
+          <h3>“Sales have stalled and I can’t tell why.”</h3>
+          <p>We look at your pipeline, targeting and messaging, fix what’s broken, and can put SDRs or a go-to-market specialist on it.</p>
+          <button type="button" class="link-button" data-situation="Sales have stalled and I can’t tell why.">Ask us about this</button>
+        </li>
+        <li class="situation" style="--star: var(--cyan)">
+          <h3>“I spend my days on admin instead of growing the business.”</h3>
+          <p>We take it off your plate with a managed virtual assistant, an automated workflow, or both.</p>
+          <button type="button" class="link-button" data-situation="I spend my days on admin instead of growing the business.">Ask us about this</button>
+        </li>
+        <li class="situation" style="--star: var(--violet)">
+          <h3>“Everyone says we should use AI. For what, exactly?”</h3>
+          <p>We find the few places where AI will save you real time or money, then build the assistants and automations to do it.</p>
+          <button type="button" class="link-button" data-situation="Everyone says we should use AI. For what, exactly?">Ask us about this</button>
+        </li>
+        <li class="situation" style="--star: var(--green)">
+          <h3>“Our numbers live in ten different spreadsheets.”</h3>
+          <p>We clean up your data and build one dashboard you’ll actually check.</p>
+          <button type="button" class="link-button" data-situation="Our numbers live in ten different spreadsheets.">Ask us about this</button>
+        </li>
+        <li class="situation" style="--star: var(--cyan)">
+          <h3>“I need more hands, but I can’t hire full-time yet.”</h3>
+          <p>Part-time or full-time managed seats: trained, supervised and easy to scale up or down.</p>
+          <button type="button" class="link-button" data-situation="I need more hands, but I can’t hire full-time yet.">Ask us about this</button>
+        </li>
+        <li class="situation" style="--star: var(--violet)">
+          <h3>“Our tech is held together with tape.”</h3>
+          <p>IT support, cloud setup and systems that are secure, documented and properly looked after.</p>
+          <button type="button" class="link-button" data-situation="Our tech is held together with tape.">Ask us about this</button>
+        </li>
+        <li class="situation" style="--star: var(--green)">
+          <h3>“We want to launch something new and don’t know where to start.”</h3>
+          <p>A go-to-market plan first, then the people, tools or app to make it happen.</p>
+          <button type="button" class="link-button" data-situation="We want to launch something new and don’t know where to start.">Ask us about this</button>
+        </li>
+        <li class="situation situation-open" style="--star: var(--amber)">
+          <h3>“Honestly? I just know something has to change.”</h3>
+          <p>That’s where most of our clients start. Tell us what’s going on and we’ll work out the rest together.</p>
+          <button type="button" class="link-button" data-situation="">Start the conversation</button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section how" id="how" aria-labelledby="how-title">
+      <div class="section-head">
+        <h2 id="how-title">How it works</h2>
+        <p>You don’t need a brief. Working out what to do is part of the job.</p>
+      </div>
+      <ol class="route">
+        <li>
+          <span class="route-marker" aria-hidden="true">1</span>
+          <h3>Tell us what’s going on</h3>
+          <p>Book a call or send a message. Explain it in your own words; no jargon or brief needed.</p>
+        </li>
+        <li>
+          <span class="route-marker" aria-hidden="true">2</span>
+          <h3>We work out what to do</h3>
+          <p>We dig into the problem and come back with a clear plan: what to fix first, who and what it takes, and what it will cost.</p>
+        </li>
+        <li>
+          <span class="route-marker" aria-hidden="true">3</span>
+          <h3>We do it</h3>
+          <p>We bring in the right people and technology, onboard them and get to work.</p>
+        </li>
+        <li>
+          <span class="route-marker" aria-hidden="true">4</span>
+          <h3>We stay on it</h3>
+          <p>Regular reporting and one point of contact, and we scale things up or down as your business changes.</p>
+        </li>
+      </ol>
+      <figure class="media how-media">
+        <video class="loop-video" src="assets/video-letsbuild.mp4" poster="assets/posters/video-letsbuild.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+        <button type="button" class="video-toggle" aria-label="Pause animation" hidden></button>
+      </figure>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="services-intro">
+        <h2 id="services-title">Then we bring in the right mix</h2>
+        <p>Once we know what to do, we put together the people and technology to do it. One team, one point of accountability.</p>
+        <figure class="media">
+          <video class="loop-video" src="assets/video-intro.mp4" poster="assets/posters/video-intro.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+          <button type="button" class="video-toggle" aria-label="Pause animation" hidden></button>
+        </figure>
+      </div>
+      <ul class="service-list">
+        <li>
+          <svg class="service-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
           <div>
-            <strong>Build Systems</strong>
-            <span>We design and implement the processes, tools and infrastructure your business runs on.</span>
+            <h3>Managed talent</h3>
+            <p>Virtual assistants, SDRs, account executives, customer success, designers, admin and operations support.</p>
           </div>
+        </li>
+        <li>
+          <svg class="service-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
           <div>
-            <strong>Start &amp; Run Departments</strong>
-            <span>We stand up entire functions — sales, marketing, IT, operations — and manage them for you.</span>
+            <h3>Go-to-market</h3>
+            <p>Strategy, ideal customer profile and positioning, outbound, pipeline building, sales enablement and revenue operations.</p>
           </div>
+        </li>
+        <li>
+          <svg class="service-icon" viewBox="0 0 24 24" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="12" y1="2" x2="12" y2="22"/></svg>
           <div>
-            <strong>GTM Plans</strong>
-            <span>We create and execute go-to-market strategies that drive pipeline, revenue and market presence.</span>
+            <h3>AI and automation</h3>
+            <p>AI assistants, chatbots, AI agents, workflow automation and internal tools.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="service-icon" viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><line x1="2" y1="20" x2="22" y2="20"/></svg>
+          <div>
+            <h3>Data and reporting</h3>
+            <p>Dashboards, reporting, lead scoring, data cleaning, business intelligence and data warehousing.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="service-icon" viewBox="0 0 24 24" aria-hidden="true"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+          <div>
+            <h3>Cloud</h3>
+            <p>Setup, hosting, storage, integrations, security basics and infrastructure that scales with you.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="service-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <div>
+            <h3>Apps and platforms</h3>
+            <p>Web and mobile apps, client portals, MVPs and internal productivity tools.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="service-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 8.46a5 5 0 0 0 0 7.07"/></svg>
+          <div>
+            <h3>IT services</h3>
+            <p>IT support, systems implementation, CRM support, workflow tools and project delivery.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section ways" id="ways" aria-labelledby="ways-title">
+      <div class="section-head">
+        <h2 id="ways-title">Ways to work with us</h2>
+        <p>Start small or go all in, and change the setup as you grow.</p>
+      </div>
+      <dl class="ways-grid">
+        <div>
+          <dt>Project</dt>
+          <dd>A defined build, like an AI assistant, an app or an automation, with an agreed scope and price.</dd>
+        </div>
+        <div>
+          <dt>Managed seats</dt>
+          <dd>Part-time or full-time people, managed by us and billed monthly.</dd>
+        </div>
+        <div>
+          <dt>Ongoing support</dt>
+          <dd>Support, reporting and continuous improvement on a monthly subscription.</dd>
+        </div>
+        <div>
+          <dt>People and technology</dt>
+          <dd>The team and the systems together, in one package.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="section why" aria-labelledby="why-title">
+      <div class="why-copy">
+        <h2 id="why-title">Why call us first</h2>
+        <p class="why-lede">A recruiter sends CVs. A software vendor sells licences. An IT company sells support. We do all three, so we can start with your problem instead of a product, and recommend the mix that will actually fix it.</p>
+        <p class="who">We work with startups, SMEs and growth-stage companies, and with sales teams, operations teams, tech-enabled businesses, industrial suppliers and professional services firms.</p>
+      </div>
+      <div class="why-proof">
+        <div class="stat">
+          <p class="stat-figure">10+ years</p>
+          <p>of award-winning sales, marketing and go-to-market work: pipelines built, products launched and revenue driven across industries.</p>
+        </div>
+        <div class="stat">
+          <p class="stat-figure">20+ years</p>
+          <p>in IT: infrastructure, cloud, software development, systems implementation and managed delivery.</p>
+        </div>
+        <dl class="traits">
+          <div><dt>Curated</dt><dd>Quality-controlled talent and delivery teams.</dd></div>
+          <div><dt>Flexible</dt><dd>Part-time, full-time and project-based.</dd></div>
+          <div><dt>Accountable</dt><dd>Reporting, account management and performance tracking.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <h2 id="contact-title">Not sure what you need? Start here.</h2>
+        <p>You don’t need the right words or a full brief. Describe what’s going on and we’ll come back with a clear next step.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://communiteam.zohobookings.com/#/4944737000000039045" target="_blank" rel="noopener">Book a discovery call</a>
+        </div>
+        <ul class="contact-direct">
+          <li>Email <a href="mailto:contact@communiteam.co.za">contact@communiteam.co.za</a></li>
+          <li>LinkedIn <a href="https://www.linkedin.com/company/communi-team-global/" target="_blank" rel="noopener">Communi-Team Global</a></li>
+        </ul>
+        <figure class="media contact-media">
+          <video class="loop-video" src="assets/video-gtm.mp4" poster="assets/posters/video-gtm.webp" muted loop playsinline preload="none" aria-hidden="true"></video>
+          <button type="button" class="video-toggle" aria-label="Pause animation" hidden></button>
+        </figure>
+      </div>
+
+      <form class="contact-form" id="enquiry-form" novalidate data-to="contact@communiteam.co.za">
+        <h3>Send us a message</h3>
+        <div class="field">
+          <label for="f-name">Name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required />
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required />
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-company">Company <span class="optional">(optional)</span></label>
+            <input id="f-company" name="company" type="text" autocomplete="organization" />
+          </div>
+          <div class="field">
+            <label for="f-phone">Phone or WhatsApp <span class="optional">(optional)</span></label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" />
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="services" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Service Lines</p>
-        <h2>What Communi-Team provides</h2>
-      </div>
-      <div class="cards">
-        <article class="card">
-          <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-              <circle cx="9" cy="7" r="4"/>
-              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-            </svg>
-          </span>
-          <h3>Managed Talent</h3>
-          <p>Virtual Assistants, SDRs, Account Executives, Customer Success Managers, Graphic Designers, administrative and operations support.</p>
-        </article>
-        <article class="card">
-          <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="16 18 22 12 16 6"/>
-              <polyline points="8 6 2 12 8 18"/>
-              <line x1="12" y1="2" x2="12" y2="22"/>
-            </svg>
-          </span>
-          <h3>AI Engineering & Bots</h3>
-          <p>AI assistants, chatbots, workflow automation, internal tools, AI agents, prompt systems and custom business automation builds.</p>
-        </article>
-        <article class="card">
-          <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="18" y1="20" x2="18" y2="10"/>
-              <line x1="12" y1="20" x2="12" y2="4"/>
-              <line x1="6" y1="20" x2="6" y2="14"/>
-              <line x1="2" y1="20" x2="22" y2="20"/>
-            </svg>
-          </span>
-          <h3>Data Analytics</h3>
-          <p>Dashboards, reporting systems, lead scoring, sales analytics, operational metrics, data cleaning, business intelligence workflows, BI and data warehousing.</p>
-        </article>
-        <article class="card">
-          <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="16 16 12 12 8 16"/>
-              <line x1="12" y1="12" x2="12" y2="21"/>
-              <path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/>
-            </svg>
-          </span>
-          <h3>Cloud Computing</h3>
-          <p>Cloud setup, storage, hosting support, integrations, security basics, scalable infrastructure planning and implementation support.</p>
-        </article>
-        <article class="card">
-          <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-              <line x1="8" y1="21" x2="16" y2="21"/>
-              <line x1="12" y1="17" x2="12" y2="21"/>
-            </svg>
-          </span>
-          <h3>Apps & Platforms</h3>
-          <p>Web apps, mobile apps, portals, MVP builds, client-facing systems and internal productivity platforms.</p>
-        </article>
-        <article class="card">
-          <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="3"/>
-              <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
-              <path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 8.46a5 5 0 0 0 0 7.07"/>
-            </svg>
-          </span>
-          <h3>IT Services</h3>
-          <p>General IT support, systems implementation, CRM support, project execution, workflow tools and managed delivery support.</p>
-        </article>
-        <article class="card card-featured">
-          <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/>
-              <circle cx="12" cy="12" r="6"/>
-              <circle cx="12" cy="12" r="2"/>
-              <line x1="12" y1="2" x2="12" y2="4"/>
-              <line x1="12" y1="20" x2="12" y2="22"/>
-              <line x1="2" y1="12" x2="4" y2="12"/>
-              <line x1="20" y1="12" x2="22" y2="12"/>
-            </svg>
-          </span>
-          <h3>GTM Specialists</h3>
-          <p>Go-to-market strategy, sales enablement, pipeline building, outbound execution, ICP definition, positioning and revenue operations support.</p>
-        </article>
-        <article class="card card-video">
-          <video class="section-video" src="assets/video-gtm.mp4" autoplay muted loop playsinline></video>
-        </article>
-      </div>
-    </section>
-
-    <div class="ticker-wrap" aria-hidden="true">
-      <div class="ticker">
-        <span>Managed Talent</span><span class="dot">&#9679;</span>
-        <span>GTM Specialists</span><span class="dot">&#9679;</span>
-        <span>AI Engineering &amp; Bots</span><span class="dot">&#9679;</span>
-        <span>Data Analytics</span><span class="dot">&#9679;</span>
-        <span>Cloud Computing</span><span class="dot">&#9679;</span>
-        <span>Apps &amp; Platforms</span><span class="dot">&#9679;</span>
-        <span>IT Services</span><span class="dot">&#9679;</span>
-        <span>SDRs &amp; Account Executives</span><span class="dot">&#9679;</span>
-        <span>Sales Enablement</span><span class="dot">&#9679;</span>
-        <span>Virtual Assistants</span><span class="dot">&#9679;</span>
-        <span>Workflow Automation</span><span class="dot">&#9679;</span>
-        <span>Revenue Operations</span><span class="dot">&#9679;</span>
-        <span>BI &amp; Data Warehousing</span><span class="dot">&#9679;</span>
-        <span>CRM Support</span><span class="dot">&#9679;</span>
-        <span>Customer Success</span><span class="dot">&#9679;</span>
-        <span>Managed Talent</span><span class="dot">&#9679;</span>
-        <span>GTM Specialists</span><span class="dot">&#9679;</span>
-        <span>AI Engineering &amp; Bots</span><span class="dot">&#9679;</span>
-        <span>Data Analytics</span><span class="dot">&#9679;</span>
-        <span>Cloud Computing</span><span class="dot">&#9679;</span>
-        <span>Apps &amp; Platforms</span><span class="dot">&#9679;</span>
-        <span>IT Services</span><span class="dot">&#9679;</span>
-        <span>SDRs &amp; Account Executives</span><span class="dot">&#9679;</span>
-        <span>Sales Enablement</span><span class="dot">&#9679;</span>
-        <span>Virtual Assistants</span><span class="dot">&#9679;</span>
-        <span>Workflow Automation</span><span class="dot">&#9679;</span>
-        <span>Revenue Operations</span><span class="dot">&#9679;</span>
-        <span>BI &amp; Data Warehousing</span><span class="dot">&#9679;</span>
-        <span>CRM Support</span><span class="dot">&#9679;</span>
-        <span>Customer Success</span><span class="dot">&#9679;</span>
-      </div>
-    </div>
-
-    <section id="model" class="section split">
-      <div>
-        <p class="eyebrow">Commercial Model</p>
-        <h2>Flexible packages for different growth stages.</h2>
-        <p>
-          Communi-Team can support clients through part-time seats, full-time embedded support, project squads or bundled talent-plus-technology packages.
-        </p>
-      </div>
-      <div class="model-list">
-        <div><strong>Monthly retainers</strong><span>Managed seats and support teams.</span></div>
-        <div><strong>Project fees</strong><span>AI builds, apps, automation and IT projects.</span></div>
-        <div><strong>Managed subscriptions</strong><span>Ongoing support, reporting and optimization.</span></div>
-        <div><strong>Expansion revenue</strong><span>Additional roles, upgrades and cross-sold services.</span></div>
-      </div>
-    </section>
-
-    <section id="industries" class="section dark-panel">
-      <p class="eyebrow">Who We Help</p>
-      <h2>Built for lean, ambitious businesses that need execution capacity.</h2>
-      <div class="industry-grid">
-        <div>Startups</div>
-        <div>SMEs</div>
-        <div>Growth-stage companies</div>
-        <div>Sales teams</div>
-        <div>Operations teams</div>
-        <div>Tech-enabled businesses</div>
-        <div>Industrial suppliers</div>
-        <div>Professional services firms</div>
-      </div>
-    </section>
-
-    <section id="process" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Delivery Framework</p>
-        <h2>How we deliver reliably</h2>
-      </div>
-      <div class="timeline">
-        <div><span>01</span><h3>Discover</h3><p>Clarify the client need, budget, timeline and success metrics.</p></div>
-        <div><span>02</span><h3>Design</h3><p>Build the right talent, AI, cloud, data or IT solution package.</p></div>
-        <div><span>03</span><h3>Deploy</h3><p>Onboard talent, launch systems and start managed delivery.</p></div>
-        <div><span>04</span><h3>Manage</h3><p>Track performance, quality, communication and delivery milestones.</p></div>
-        <div><span>05</span><h3>Scale</h3><p>Expand roles, services and technology as client needs grow.</p></div>
-      </div>
-    </section>
-
-    <section class="section experience">
-      <div class="section-heading">
-        <p class="eyebrow">Our Experience</p>
-        <h2>Decades of proven expertise behind every engagement.</h2>
-      </div>
-      <div class="exp-grid">
-        <div class="exp-card">
-          <div class="exp-number">10<span class="exp-plus">+</span></div>
-          <h3>Years of Sales, Marketing &amp; GTM Experience</h3>
-          <p>Award-winning go-to-market strategy, sales enablement and marketing execution across startups, SMEs and growth-stage businesses. We have built pipelines, launched products and driven revenue for companies across multiple industries.</p>
-        </div>
-        <div class="exp-card">
-          <div class="exp-number">20<span class="exp-plus">+</span></div>
-          <h3>Years of IT Experience</h3>
-          <p>Deep technical expertise spanning infrastructure, cloud computing, software development, systems implementation and managed IT delivery. We have built and maintained complex technology environments for businesses of all sizes.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section proof">
-      <div class="proof-card">
-        <h2>Why Communi-Team is different</h2>
-        <p>
-          Communi-Team is not only a staffing provider and not only a software shop. It combines managed people, practical technology and delivery accountability into one flexible partner model.
-        </p>
-      </div>
-      <div class="proof-points">
-        <div><strong>Curated</strong><span>Quality-controlled talent and delivery teams.</span></div>
-        <div><strong>Flexible</strong><span>Part-time, full-time and project-based models.</span></div>
-        <div><strong>Accountable</strong><span>Reporting, account management and performance tracking.</span></div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="contact-left">
-        <p class="eyebrow">Let’s Build</p>
-        <h2>Ready to scale with talent and technology?</h2>
-        <p>Book a discovery call to design a flexible talent and technology package for your business.</p>
-        <video class="section-video contact-video" src="assets/video-letsbuild.mp4" autoplay muted loop playsinline></video>
-      </div>
-      <div class="contact-right">
-        <form class="contact-form">
-          <input type="text" placeholder="Name" aria-label="Name" />
-          <input type="email" placeholder="Email" aria-label="Email" />
-          <input type="text" placeholder="Company" aria-label="Company" />
-          <select aria-label="Service Interest">
-            <option>What do you need?</option>
-            <option>Managed Talent</option>
-            <option>GTM Specialists</option>
-            <option>AI Engineering & Bots</option>
-            <option>Data Analytics</option>
-            <option>Cloud Computing</option>
-            <option>Apps & Platforms</option>
-            <option>IT Services</option>
+        <div class="field">
+          <label for="f-need">What do you think you need?</label>
+          <select id="f-need" name="need">
+            <option>Not sure yet, that’s why I’m here</option>
+            <option>Managed talent</option>
+            <option>Go-to-market and sales</option>
+            <option>AI and automation</option>
+            <option>Data and reporting</option>
+            <option>Cloud</option>
+            <option>Apps and platforms</option>
+            <option>IT services</option>
           </select>
-          <textarea placeholder="Tell us about your needs" aria-label="Message"></textarea>
-          <button type="button" class="btn primary">Submit Enquiry</button>
-        </form>
-      </div>
+        </div>
+        <div class="field">
+          <label for="f-message">What’s going on?</label>
+          <textarea id="f-message" name="message" rows="5" required placeholder="For example: our sales have been flat for six months and we don’t know why."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send message</button>
+        <p class="form-note">We only use your details to reply to you.</p>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
     </section>
   </main>
 
   <footer class="footer">
-    <img src="assets/communi-team-logo.png" alt="Communi-Team Logo" />
-    <div class="footer-links">
-      <a href="https://www.linkedin.com/company/communi-team-global/" target="_blank" rel="noopener" class="footer-linkedin">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-        </svg>
-        Communi-Team Global
-      </a>
+    <div class="footer-inner">
+      <img src="assets/communi-team-logo-wide.png" alt="Communi-Team" width="497" height="139" />
+      <p class="footer-tagline">Where you go when you don’t know what to do.</p>
+      <ul class="footer-links">
+        <li><a href="mailto:contact@communiteam.co.za">contact@communiteam.co.za</a></li>
+        <li><a href="https://www.linkedin.com/company/communi-team-global/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://communiteam.zohobookings.com/#/4944737000000039045" target="_blank" rel="noopener">Book a call</a></li>
+      </ul>
+      <p class="legal">© 2026 Communi-Team, a trading name of Pharoe Trading and Projects (Pty) Ltd.</p>
     </div>
-    <p><a href="mailto:Contact@communiteam.co.za" class="footer-email">Contact@communiteam.co.za</a></p>
-    <p>© 2026 Communi-Team. Where Talent Meets Technology.</p>
   </footer>
 
   <script src="script.js"></script>
